@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-    println("Привет Никита!")
+    var name = "Никита"
+    println("Привет $name!")
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
